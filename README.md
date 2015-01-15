@@ -6,6 +6,7 @@ Navigate through the barriers.
 * Head tracking using the [DeviceOrientationEvent](https://developer.mozilla.org/en-US/docs/Web/API/DeviceOrientationEvent)
 * Full screen stereoscopic
 * Uses SVG's and DOM's
+* Built during the middle of finals week
 
 ## License
 
