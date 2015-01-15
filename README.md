@@ -3,7 +3,7 @@ A minimalistic, 3D FPV virtual reality game for Google Cardboard.
 Navigate through the barriers.
 
 ## Features
-* Head tracking using the [Device OrientationEvent](https://developer.mozilla.org/en-US/docs/Web/API/DeviceOrientationEvent)
+* Head tracking using the [DeviceOrientationEvent](https://developer.mozilla.org/en-US/docs/Web/API/DeviceOrientationEvent)
 * Full screen stereoscopic
 * Uses SVG's and DOM's
 
