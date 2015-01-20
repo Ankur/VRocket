@@ -439,8 +439,6 @@ MG.game = (function () {
 
             //sdir = 200;
 
-            console.log(rdir, sdir);
-
             if ((rtiltLR <= -45) && (rtiltLR > -90))
             {
                 switch (rtiltLR)
