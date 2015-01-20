@@ -82,7 +82,6 @@ MG.missile = (function () {
                     mX = mTargetX;
                     mY = mTargetY;
                     
-                    console.log(mX, mY);
                     break;
 
                 default:
