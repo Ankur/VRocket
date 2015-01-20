@@ -131,9 +131,15 @@ MG.game = (function () {
 
         mBarriersToPass = LEVEL_NUM_BARRIERS;
 
-        MG.missile.setManual();
-
+        MG.missile.setTarget(0, 0);
         mState = GameState.STARTING;
+
+        setTimeout(function(){
+
+        MG.missile.setManual();
+        
+        },2000); 
+
 
         mouseSim();
     }
@@ -410,11 +416,26 @@ MG.game = (function () {
             var rtiltLR = Math.round(tiltLR);
             var rdir = Math.round(dir);
 
-            if(firstload < 6)
+            if (mState = GameState.STARTING)
+            {
+                if ((rtiltLR <= 90) && (rtiltLR > 45))
+                {
+                    sdir = rdir + 180;
+                }
+                else
+                {
+                    sdir = rdir;
+                }
+            }
+
+            console.log(sdir);
+
+
+            /*if(firstload < 6)
             {
                 sdir = rdir;
                 firstload ++;
-            }
+            }*/
 
             //sdir = 200;
 

@@ -134,6 +134,11 @@ MG.missile = (function () {
                 mTargetX = targetX;
                 mTargetY = targetY;
             }
+            else if ((targetX == 0) && (targetY == 0))
+            {
+                mTargetX = targetX;
+                mTargetY = targetY;
+            }
         },
 
         setVelocity: function (velocity) {
