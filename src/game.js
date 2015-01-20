@@ -416,7 +416,7 @@ MG.game = (function () {
             var rtiltLR = Math.round(tiltLR);
             var rdir = Math.round(dir);
 
-            if (mState = GameState.STARTING)
+            if (mState == GameState.STARTING)
             {
                 if ((rtiltLR <= 90) && (rtiltLR > 45))
                 {
