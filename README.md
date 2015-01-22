@@ -8,6 +8,15 @@ Navigate through the barriers.
 * Uses SVG's and DOM's
 * Built during the middle of finals week
 
+## Help & FAQ
+Q: Help!  I can't move side-to-side!
+A: Moving side-to-side is disabled until the first barrier of the level is visible. 
+   Just wait until you can see the barrier and you're good to go!
+   
+Q: The movement is really buggy!
+A: Turn around 180° and restart the app.  Presto.
+   (This is caused by the magnetometer's shift from 0 to 360 and isn't readable)
+
 ## License
 
 The MIT License (MIT)
